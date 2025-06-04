@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+
+    <!-- cara menggunakan css internal -->
+    <style>
+        /* selector tag = global */
+        h2 {
+            color: blue;
+        }
+
+        /* selector class . = spesific*/
+        .teks {
+            color: green;
+        }
+
+        /* selector id # = spesific */
+        #teks {
+            font-size: 20px;
+            color: yellow;
+        }
+    </style>
+
+    <!-- menghubungkan css eksternal -->
+    <link rel="stylesheet" href="./latihan2.css">
+</head>
+<body>
+    <!-- css inline -->
+    <h1 style="color: red; font-size: 40px;">ini contoh css inline</h1>
+
+    <!-- css internal -->
+    <h2>ini contoh css internal</h2>
+
+    <!-- selector class -->
+    <h2 class="teks">ini contoh selector class</h2>
+
+    <!-- selector id -->
+    <h2 id="teks">ini contoh selector id</h2>
+
+    <h2>contoh lagi</h2>
+
+    <!-- contoh penggunaan css eksternal -->
+    <img src="../assets/img1.png" alt="">
+
+
+    <!-- catatan -->
+    <!-- selector adalah apa yang kita pilih untuk diatur styling di program css -->
+</body>
+</html>

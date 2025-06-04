@@ -1,0 +1,14 @@
+* {
+    font-family: outfit;
+}
+
+body {
+    margin: 0;
+}
+
+/* hero */
+#hero {
+    background-image: url(./aset/img-hero.jpg);
+    background-size: cover;
+    height: 500px;
+}
